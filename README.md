@@ -1,4 +1,5 @@
 # Quotes
+Quotes project is about upvoting or downvoting the entering a quote, where the user could delete the code, and see how the voting process is going.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 
