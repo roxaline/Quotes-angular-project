@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RoxyComponent } from './roxy/roxy.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RoxyComponent
+    RoxyComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
