@@ -13,6 +13,7 @@ export class RoxyComponent implements OnInit {
     new Quotes('Examine what is said, not him who speaks.', 'Arabian proverb' ),
     new Quotes('I not only use all the brains I have, but all that I can borrow.', 'Woodrow Wilson' ),
 ]
+
   constructor() { }
 
   ngOnInit() {
