@@ -7,6 +7,7 @@ import { RoxyComponent } from './roxy/roxy.component';
 import { DetailsComponent } from './details/details.component';
 import { FormComponent } from './form/form.component';
 import { StrikehroughDirective } from './strikehrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StrikehroughDirective } from './strikehrough.directive';
     RoxyComponent,
     DetailsComponent,
     FormComponent,
-    StrikehroughDirective
+    StrikehroughDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
