@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { RoxyComponent } from './roxy/roxy.component';
 import { DetailsComponent } from './details/details.component';
 import { FormComponent } from './form/form.component';
+import { StrikehroughDirective } from './strikehrough.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     RoxyComponent,
     DetailsComponent,
-    FormComponent
+    FormComponent,
+    StrikehroughDirective
   ],
   imports: [
     BrowserModule,

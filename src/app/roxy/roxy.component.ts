@@ -14,7 +14,15 @@ export class RoxyComponent implements OnInit {
     new quotes('I not only use all the brains I have, but all that I can borrow.', 'Woodrow Wilson','It is  smart to ask advice rather than depend on your own brain')
 ]
 
-  constructor() { }
+completequotes(isComplete,index){
+  if (isComplete){
+    this.quotes.splice(index,1);
+  }
+}
+// toggleDetails(index){
+//   this.quotes[index].showDescription= ! this.quotes[index].showDescription;
+// }
+//   constructor() { }
 
   ngOnInit() {
   }
