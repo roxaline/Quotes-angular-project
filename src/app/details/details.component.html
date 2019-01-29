@@ -1,3 +1,11 @@
-<p>
+<!-- <p>
   details works!
-</p>
+</p> -->
+
+<ul>
+    <div *ngFor='let quote of quotes'> 
+        <li>{{quote.quote}}</li>
+        <app-details [quote]='quote'></app-details>
+    </div>   
+  </ul>
+  <p *ngIf='quotes.lenght'>5'> You have too many quotes</p>
