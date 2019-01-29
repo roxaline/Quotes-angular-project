@@ -1,7 +1,10 @@
-<!-- <p>
-  roxy works!
-</p> -->
+
 <ul>
-  <li *ngFor='let quote of quotes'>{{quote.quote}}</li>
+  <div *ngFor='let quote of quotes;let i=index'> 
+      <li>{{quote.quote}}</li>
+      <button (click)='toogleDetails(i)'>Toggle Details</button>
+
+      <app-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='Completequotes($event,i)'></app-details>
+  </div>   
 </ul>
-<app-form></app-form>
+<p *ngIf='quotes.length'> 4'> You have too many quotes</p>
