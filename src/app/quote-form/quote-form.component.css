@@ -1,0 +1,18 @@
+.jumbotron{
+    background-color:teal;
+    color:white;
+    font-style: oblique;
+}
+button{
+    background-color: darkslategray;
+    font-weight: bold;
+    border: 0ch;
+    border-radius: 4px;
+}
+#goalForm{
+    position: relative;
+    right: 50%;
+}
+h3{
+    color: black;
+}

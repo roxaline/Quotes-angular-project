@@ -1,6 +1,4 @@
-<h1 id="h">Quotes</h1>
-
-<p id="p">create your quotes here</p>
+<!-- <h1 id="heading1">Quotes</h1> -->
 <hr>
 
 <div class="container">
@@ -14,10 +12,9 @@
 <div class="container">
 <div class="row" *ngFor="let quote of quotes;let i = 'index'">
 <ul>
-        <li >{{quote.name}}</li> 
-        <button (click)='toogleDetails(i)'>Show Author</button>
-
-        <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>    
+    <li >{{quote.name}}</li> 
+    <button (click)='toogleDetails(i)'>Author details</button>
+    <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>    
 </ul>
 </div>
 
