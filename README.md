@@ -1,21 +1,21 @@
 # Quotes
 by UWABIKIRAMARIYA Roselyne
 
-##Description
+## Description
 
 Quotes project is about upvoting or downvoting the entering a quote, where the user could delete the code, and see how the voting process is going.
 
-##BDD
+## BDD
 
 A user creates his/her quote, written by somebody else, the auther and the one who is creating that quote.
 
-After clicking in button CREATE QUOTE, the quote is automatically added and with a AUTHOR DETAILS button which shows the auther and how the quote is either liked or disliked by clicking on up-thumb and down-thumb.
+After clicking in button **Create Quote**, the quote is automatically added and with a **Author details** button which shows the auther and how the quote is either liked or disliked by clicking on up-thumb and down-thumb.
 
-##Technologies used
+## Technologies used
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 
-###Theses are some codes in angular (used in terminal)
+#### Theses are some codes in angular (used in terminal)
 
 Create a folder 
 
@@ -43,18 +43,18 @@ For the browser
 
  `http://localhost:4200/`
  
-##Contacts
+## Contacts
 
 Email:mariadelarosita078@gmail.com
 
 Phone Number: (+250)786421009
 
-##Link
+## Link
 
 This is my website link 
 
 
-##License
+## License
 
 This is my own work.
 
