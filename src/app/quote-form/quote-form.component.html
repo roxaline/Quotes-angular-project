@@ -28,15 +28,21 @@
                 </div>
                 <div class="form-group">
     
-                    <label for="submitted">Written by</label>
+                    <label for="submitted">Submitted by</label>
                     <input type="text" required class="form-control" id="submitted" [(ngModel)]="newQuote.submitted" name="name"  placeholder="Write your name" required>
                    
     
                     <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                        <p> Enter your name</p>              
+                        <p>Your name is required</p>              
                     </div>  
-    
                 </div>
+                <div class="form-group">
+                        <label for="complete">Posting date</label>
+                        <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
+                        <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
+                            <p>Date is Required</p>    
+                        </div>
+                    </div>
                 <button type="submit">Create Quote!</button>
             </form>
         </div>

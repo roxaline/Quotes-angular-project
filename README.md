@@ -9,7 +9,7 @@ Quotes project is about upvoting or downvoting the entering a quote, where the u
 
 A user creates his/her quote, written by somebody else, the auther and the one who is creating that quote.
 
-After clicking in button **Create Quote**, the quote is automatically added and with a **Author details** button which shows the auther and how the quote is either liked or disliked by clicking on up-thumb and down-thumb.
+After clicking in button **Create Quote**, the quote is automatically added and with a **Author details** button which shows the auther and how the quote is either liked or disliked by clicking on up-thumb and down-thumb, and  how many days left when the quote is created.
 
 ## Technologies used
 
