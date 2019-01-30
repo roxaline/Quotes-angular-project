@@ -1,28 +1,61 @@
 # Quotes
+by UWABIKIRAMARIYA Roselyne
+
+##Description
+
 Quotes project is about upvoting or downvoting the entering a quote, where the user could delete the code, and see how the voting process is going.
+
+##BDD
+
+A user creates his/her quote, written by somebody else, the auther and the one who is creating that quote.
+
+After clicking in button CREATE QUOTE, the quote is automatically added and with a AUTHOR DETAILS button which shows the auther and how the quote is either liked or disliked by clicking on up-thumb and down-thumb.
+
+##Technologies used
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 
-## Development server
+###Theses are some codes in angular (used in terminal)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Create a folder 
 
-## Code scaffolding
+`ng new Foldername`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Create a class 
 
-## Build
+`ng generate class Classname`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Create a component 
 
-## Running unit tests
+`ng generate component Componentname`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+BOOTSTRAP
 
-## Running end-to-end tests
+`$ npm install --save bootstrap`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+To check for errors on the server and run in browser
 
-## Further help
+for a the server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`ng serve` 
+
+For the browser
+
+ `http://localhost:4200/`
+ 
+##Contacts
+
+Email:mariadelarosita078@gmail.com
+
+Phone Number: (+250)786421009
+
+##Link
+
+This is my website link 
+
+
+##License
+
+This is my own work.
+
+MIT Copyright (c) 2019
