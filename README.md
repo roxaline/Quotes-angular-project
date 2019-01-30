@@ -17,29 +17,29 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 #### Theses are some codes in angular (used in terminal)
 
-Create a folder 
+**Create a folder**
 
 `ng new Foldername`
 
-Create a class 
+**Create a class** 
 
 `ng generate class Classname`
 
-Create a component 
+**Create a component** 
 
 `ng generate component Componentname`
 
-BOOTSTRAP
+**Bootstrap**
 
 `$ npm install --save bootstrap`
 
-To check for errors on the server and run in browser
+*To check for errors on the server and run in browser*
 
-for a the server
+**for a the server**
 
 `ng serve` 
 
-For the browser
+**For the browser**
 
  `http://localhost:4200/`
  
